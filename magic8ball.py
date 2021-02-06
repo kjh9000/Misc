@@ -4,6 +4,19 @@
 import random
 number = random.randint(1,8)
 
+# The new an imporved version written with a list. Much more succinct.
+answers = ["Absolutely!",
+        "Ask again later.",
+        "Absolutely not.",
+        "The magic 8 ball is uncertain.",
+        "Probably not.",
+        "Probably.",
+        "No.",
+        "Yes."]
+print(answers[random.randint(0,7)])
+
+# The original version, commented out
+"""
 def shake_it_baby():
     if number == 1:
         print("Absolutely!")
@@ -21,5 +34,5 @@ def shake_it_baby():
         print("No.")
     elif number == 8:
         print("Yes.")
-
 shake_it_baby()
+"""
