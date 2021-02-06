@@ -3,7 +3,7 @@
 
 import random
 
-# The new an imporved version written with a list. Much more succinct.
+# The new an improved version written with a list. Much more succinct.
 answers = ["Absolutely!",
         "Ask again later.",
         "Absolutely not.",
@@ -12,7 +12,7 @@ answers = ["Absolutely!",
         "Probably.",
         "No.",
         "Yes."]
-print(answers[random.randint(0,7)])
+print(answers[random.randint(0, len(answers) - 1)])
 
 # The original version, commented out
 """
