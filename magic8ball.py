@@ -2,7 +2,6 @@
 # A basic magic 8 ball program. Ask a question, and run the program.
 
 import random
-number = random.randint(1,8)
 
 # The new an imporved version written with a list. Much more succinct.
 answers = ["Absolutely!",
@@ -17,6 +16,7 @@ print(answers[random.randint(0,7)])
 
 # The original version, commented out
 """
+number = random.randint(1,8)
 def shake_it_baby():
     if number == 1:
         print("Absolutely!")
