@@ -12,7 +12,8 @@ answers = ["Absolutely!",
         "Probably.",
         "No.",
         "Yes."]
-print(answers[random.randint(0, len(answers) - 1)])
+
+print(answers[random.randint(0,7)])
 
 # The original version, commented out
 """
