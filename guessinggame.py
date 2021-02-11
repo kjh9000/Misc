@@ -8,7 +8,9 @@ import random
 guesses = 5
 print("Welcome to the guessing game. The program is thinking of a number " + 
 "between 1 and 20. You have five attempts to guess the number. Enter q to quit.")
+
 number= random.randint(1,20)
+
 while guesses:
     try:
         guess = int(input("Guess: "))
@@ -28,6 +30,7 @@ while guesses:
         if guesses == 0:
             print("You're out of guesses. Game over. The number was " + str(number)
             + ". Thanks for playing!.")
+
     except ValueError:
         print("This program accepts whole numbers only.")
 
