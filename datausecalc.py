@@ -32,4 +32,4 @@ for i in re.compile(r'''
     ''', re.VERBOSE).findall(testtext):
     count += 1
     sum += float(i)
-print("You have used about", sum, "GB of data in", count, "days.")
+print("You have used about", round(sum / 1000, 2), "GB of data in", count, "days.")
