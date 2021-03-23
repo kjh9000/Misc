@@ -2,9 +2,10 @@
 
 # datausecalc.py
 # kjh9000@github.com
-'''My ISP only gives me the data used for each day, not the total.
-This program extracts the data used from the wall of text provided, adds it
-and returns the sum and the number of days into the plan one is.
+'''My ISP only gives me the data used for each day, not the total. This program
+extracts the data used from the wall of text provided, adds it and returns the 
+sum and the number of days into the plan one is. Note the current day counts as
+one complete day
 '''
 import re
 
@@ -24,7 +25,6 @@ testtext= '''
 '''
 
 # extracts the data and adds it, then returns the sum along with the days
-# note the current day counts as one complete day
 sum = 0
 count = 0
 for i in re.compile(r'''
