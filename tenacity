@@ -1,0 +1,42 @@
+Here is an example algorithm for the tenacity buff for the Wintergrasp battleground in the MMORPG (online video game) 
+World of Warcraft - Wrath of the Lich King. 
+
+This algorithm assumes one level of the tenacity buff is equal to 1/6 of a player. 1/6 of a player = one tenacity point (tp).
+
+
+Two examples explained:
+In the first example of one tenacity, both teams have 42 tp. The first team has seven players (7 * 6) for a total of 42 tp.
+The second team has six players with a base tp of 36 (6 * 6), and each player receives one tp from the tenacity buff (6 * 1).
+
+7 * 6 = 6 * 6 + 6 * 1
+
+In the last example of 19 tenacity, both teams have a total of 150 tp. The first team has 25 players (25 * 6) for 
+a total of 150 tp. The second team has 36 base tp (6 * 6) and 114 tp from the buff (6 * 19).
+
+25 * 6 = 6 * 6 + 6 * 19
+
+
+To determine the proper amount of tenacity, simply divide the lower number of players by the higher number of players, then
+apply tenacity based on the percentage within the range of the example percentages.
+
+percentage    ten      example      
+0.857142857    1       7  to 6
+0.75           2       8  to 6
+0.666666667    3       6  to 4 
+0.6            4       5  to 3 
+0.545454545    5       11 to 6 
+0.5            6       2  to 1 
+0.461538462    7       13 to 6 
+0.428571429    8       7  to 3 
+0.4            9       10 to 4 
+0.375          10      16 to 6 
+0.352941176    11      17 to 6 
+0.333333333    12      9  to 3 
+0.315789474    13      19 to 6 
+0.3            14      10 to 3 
+0.285714286    15      14 to 4 
+0.272727273    16      11 to 3 
+0.260869565    17      23 to 6 
+0.25           18      4  to 1 
+0.24           19      25 to 6 
+
