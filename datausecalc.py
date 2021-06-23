@@ -5,6 +5,8 @@
 
 ''' Instructions - Copy and paste the wall of text rom the website and paste it 
 into datausecalc.txt. Note the potential for fencepost errors. You are responsible for choosing what days to include in the calculation.
+
+Note there is a bug. The data needs to be a float. For example, 700 MB needs to be changed to 700.0 MB.
 '''
 
 import re
